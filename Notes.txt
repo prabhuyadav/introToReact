@@ -11,3 +11,11 @@ Next....
 
 we can use curly braces {} to include javascript code inside our html code used in the render function.
 so this is the format in JSX file.
+
+in index.html when we are including the script we need to change the type to JSX instead of javascript to not get some non blocking errors.
+
+Adding attributes to the html in jsx code i.e index.js  is different that adding normal html attr.
+
+we need to add JSX attr which are camel cased version of corresponding html attr in most cases and this is because since this will be compiled and converted to javascript instead of html we need 
+to add these JSX attrs so that DOM can recognize these names.for example className is the actual dom property that we set when we set a class for an element in the html so we set that property directly here
+which itself is the JSX attr name and it will be like that in most cases.
