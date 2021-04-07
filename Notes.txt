@@ -8,3 +8,6 @@ we simply enclose it in a div which will be considered as a single element and t
 created inside our root div with id root which we gave as second arg to the render fn.
 
 Next....
+
+we can use curly braces {} to include javascript code inside our html code used in the render function.
+so this is the format in JSX file.
