@@ -1,5 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Heading from "./Heading";
+// file extension is optional in ES6
 
 const myName = "Prabhu";
 const currentYear = new Date().getFullYear();
@@ -17,7 +19,7 @@ customStyle.fontSize = "16px";
 
 const htmlElement = (
   <div>
-    <h1 className="heading">Hello React</h1>
+    <Heading />
     <p>This is React Introduction. My name is {myName}</p>
     <span style={customStyle}>Copyright {currentYear}</span>
   </div>

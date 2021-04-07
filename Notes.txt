@@ -22,3 +22,13 @@ which itself is the JSX attr name and it will be like that in most cases.
 
 Adding inline styles. becomes useful when we wanna update style dynamically. so in JSX we need to give a js object with css properties as keys and the corresponing values as strings.
 similar to html attr being camelCased version in JSX we need to camelCase the css properties also instead of kebab case. for example font-size is fontSize in jsx.
+
+React components.
+
+so we can create seperate jsx files to create components and use them. as per convention we keep the extension of the index.js file to js only instead of making that to jsx.
+check the airbnb react style guide github repo for conventions and best practices.
+
+now we create a function that returns the html element and we export that file. we import the file in index.js and use it as <Heading />
+now when we write the function name inside the tag like that bts react will call this function and set the returned element in the dom.
+since we don't want to add any new content inside this Heading we can self close it . as per convention we give a space before the closing tag and the name.
+for all the component files we name them with jsx extensions
