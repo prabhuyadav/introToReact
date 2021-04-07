@@ -1,0 +1,8 @@
+JSX - format of writing direct html code in to js files using React. React uses a advanced compiler named Babel which will recognie this html code and compiles it into it's javascript equivalent
+as this is a js file that our browser will finally read, so that our browser can understand
+
+We can use that latest syntax import instead of assigning as variables to import react modules.
+
+Inside the render function it can only take one html element so if we want a h1 and a paragraph then
+we simply enclose it in a div which will be considered as a single element and this div will be
+created inside our root div with id root which we gave as second arg to the render fn.
