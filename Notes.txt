@@ -32,3 +32,5 @@ now we create a function that returns the html element and we export that file. 
 now when we write the function name inside the tag like that bts react will call this function and set the returned element in the dom.
 since we don't want to add any new content inside this Heading we can self close it . as per convention we give a space before the closing tag and the name.
 for all the component files we name them with jsx extensions
+
+By convention all the component files have PascalCase i.e start of every word in the name will be capitalized.
